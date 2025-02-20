@@ -1,0 +1,169 @@
+/** @format */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color: inherit;
+}
+#logo {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: auto;
+}
+
+#links {
+  list-style: none; /* tira os pontinhos da lista*/
+  display: flex; /*se ajusta conforme o zoom da tela*/
+  justify-content: center; /*deixa no centro*/
+  padding: 10px;
+  color: black;
+}
+
+.listalinks {
+  padding: 10px;
+  margin-top: -30px;
+}
+
+#inicio {
+  background-color: #acd7f2;
+}
+
+#banner {
+  display: flex;
+  width: 700px;
+  height: auto;
+  margin: 0% auto;
+}
+
+#Titulo1 {
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+}
+
+#subtitulo2 {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  color: #2084c1;
+  padding: 25px;
+}
+
+#casinha {
+  display: flex;
+  width: 400px;
+  height: auto;
+  margin: 0% auto;
+}
+
+#casinhatexto {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  padding: 40px;
+}
+
+#serviços {
+  background-color: #acd7f2;
+  height: 300px;
+}
+
+#serv {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+#textoserviços {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+#topicos {
+  width: 200px;
+  margin: 40px auto;
+}
+.listatopicos {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+#titulocorretores {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+#corret {
+  display: flex;
+  width: 400px;
+  height: auto;
+  margin: 0% auto;
+}
+
+#textocorret {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  padding: 40px;
+}
+
+#contato {
+  background-color: #acd7f2;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+#mapa {
+  display: flex;
+  width: 400px;
+  height: 200px;
+  margin: 0% auto;
+  padding: 40px;
+}
+
+#linksloc{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+  padding: 60px;
+}
+
+p, h1, h3 {
+  max-width: 800px; /* Define a largura máxima para os textos */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  text-align: center; /* Garante alinhamento central */
+}
+
+#final{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  padding: 10px;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 10px;
+}
+
+#linkcorret{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+  padding: 10px;
+}
